@@ -5,6 +5,9 @@ This project will generate relevant alt text for images using AI.
 <p align="center">
   <img src="dog.jpg" width="30%" />
 </p>
+<p align="center">
+  <img src="screen1.png" width="30%" />
+</p>
 
 ## How it works
 
@@ -29,7 +32,7 @@ pnpm dev
 To use the API route, go to the link below in your browser or run a curl command in your terminal to get a sample result. Feel free to replace the dub.sh link with a link to any image.
 
 ```bash
-curl http://localhost:3000/api/generate?imageUrl=https://dub.sh/confpic
+curl http://localhost:3000/api/generate?imageUrl=YOUR-IMAGE-URL
 ```
 
 ## One-Click Deploy
