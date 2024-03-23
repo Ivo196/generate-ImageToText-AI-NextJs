@@ -2,7 +2,7 @@
 
 This project will generate relevant alt text for images using AI.
 
-![ Image Generator](dog.png)
+![ Image Generator](dog.jpg)
 
 ## How it works
 
