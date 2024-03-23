@@ -1,4 +1,4 @@
-# Alt Image Generator
+# Image To Text Generator
 
 This project will generate relevant alt text for images using AI.
 
