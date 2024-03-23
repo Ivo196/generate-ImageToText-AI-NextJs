@@ -1,17 +1,20 @@
-# Image To Text Generator
+# AI - Image To Text Generator
 
 This project will generate relevant alt text for images using AI.
 
 <p align="center">
   <img src="dog.jpg" width="30%" />
 </p>
-<p align="center">
-  <img src="screen1.png" width="30%" />
-</p>
 
 ## How it works
 
 It uses an ML modal from Salesforce called [BLIP](https://github.com/salesforce/BLIP) on [Replicate](https://replicate.com/) to generate relevant alt text for images. You can feed the Next.js API route an image as a query param and it will return a one sentence description of that image.
+
+<p align="center">
+  <img src="screen1.png" width="100%" />
+</p>
+
+
 
 ## Clone and Deploya
 
@@ -34,9 +37,3 @@ To use the API route, go to the link below in your browser or run a curl command
 ```bash
 curl http://localhost:3000/api/generate?imageUrl=YOUR-IMAGE-URL
 ```
-
-## One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/alt-tag-generator&env=REPLICATE_API_TOKEN&project-name=alt-tag-generation&repo-name=alt-tag-generation)
