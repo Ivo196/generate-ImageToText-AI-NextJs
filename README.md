@@ -2,13 +2,14 @@
 
 This project will generate relevant alt text for images using AI.
 
-![ Image Generator](dog.jpg)
-
+<p align="center">
+  <img src="dog.jpg" width="30%" />
+</p>
 ## How it works
 
 It uses an ML modal from Salesforce called [BLIP](https://github.com/salesforce/BLIP) on [Replicate](https://replicate.com/) to generate relevant alt text for images. You can feed the Next.js API route an image as a query param and it will return a one sentence description of that image.
 
-## Clone and Deploy
+## Clone and Deploya
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
